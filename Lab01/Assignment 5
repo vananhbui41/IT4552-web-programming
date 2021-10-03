@@ -1,2 +1,56 @@
 <html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Profile</h1>
+<p>This is a beta version. Some information in this site could be not true.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1"> 
+<tr>
+<td><h3>Bùi Vân Anh</h3>
+<p>20184026</p>
+</td>
+<td><img src="‪C:\Users\vanan\OneDrive - Hanoi University of Science and Technology\gui.jpg" 
+    alt="This is my image. I think it could not be displayed but i dont know why"></td>
+</tr>
+<tr>
+    <th>Ngày sinh</th>
+    <td>04/01/2000</td>
+</tr>
+<tr>
+    <th>Tôn giáo</th>
+    <td>Không</td>
+</tr>
+<tr>
+    <th>Email</th>
+    <td><a href="anh.bv184026@sis.hust.edu.vn">anh.bv184026@sis.hust.edu.vn</a></td>
+</tr>
+<tr>
+    <th>SĐT</th>
+    <td><a href="+84977xxxx">0977.xxx.xxx</a></td>
+</tr>
+<tr>
+    <th>Git</th>
+    <td><a href="https://bitbucket.org/BuiVanAnh20184026/">bitbucket.org/BuiVanAnh20184026/</a></td>
+</tr>
+<tr>
+    <th>Trình độ học vấn</th>
+    <td>Sinh viên năm 4 Đại học Bách khoa Hà Nội</td>
+</tr>
+<tr>
+    <th>Sở thích</th>
+    <td>Xem phim</td>
+</tr>
+<tr>
+    <th>Kinh nghiệm</th>
+    <td>&nbsp</td>
+</tr>
+<tr>
+    <th>...</th>
+    <td>...</td>
+</tr>
+</table>
+
+</body>
 </html>
