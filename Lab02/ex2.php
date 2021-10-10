@@ -17,7 +17,7 @@
               }
             
               if (empty($_POST["function"])) {
-                $genderErr = "Function is required";
+                $functionErr = "Function is required";
               } else {
                 $function = test_input($_POST["function"]);
               }
@@ -38,14 +38,11 @@
             <br><br>
             <!-- Lựa chọn hàm -->
             <input type="radio" name="function" id="strlen" value="strlen">strlen
-            <!-- <label for="strlen">strlen</label> -->
             <input type="radio" name="function" id="strtolower" value="strtolower">strtolower
             <br><br>
-            <!-- <label for="strtolower">strtolower</label><br> -->
             <input type="radio" name="function" id="trim" value="trim">trim
-            <!-- <label for="trim">trim</label> -->
             <input type="radio" name="function" id="strtoupper" value="strtoupper">strtoupper
-            <!-- <label for="strtoupper">strtoupper</label><br> -->
+            <span class="error" style="color: red;">* <?php echo $functionErr;?></span>
             <br><br>
             <button>Submit</button>
         </form>
