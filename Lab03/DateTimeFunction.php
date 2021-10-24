@@ -72,7 +72,7 @@
                 function dateInLetter($d){
                     return date("l,F d,Y",$d);
                 }
-            //
+            
                 function daysBetweenDates($first_date,$second_date){
                     $datediff = abs($first_date - $second_date);
                     return floor($datediff / (60*60*24));
